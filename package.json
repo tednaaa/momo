@@ -1,0 +1,18 @@
+{
+	"scripts": {
+		"prepare": "lefthook install",
+		"dev": "vitepress dev docs",
+		"build": "vitepress build docs",
+		"preview": "vitepress preview docs",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix"
+	},
+	"devDependencies": {
+		"@tednaaa/eslint-config": "0.1.1",
+		"eslint": "10.12.0",
+		"jiti": "2.7.0",
+		"lefthook": "2.2.1",
+		"typescript": "6.0.3",
+		"vitepress": "2.0.0-alpha.20"
+	}
+}
